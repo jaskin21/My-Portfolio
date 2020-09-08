@@ -9,10 +9,10 @@ const Theme = () => {
           className="config-trigger config-panel-hide text-center"
           href="%PUBLIC_URL%/#"
         >
-          <i
+          {/* <i
             className="fas fa-cog fa-spin mx-auto"
             data-fa-transform="down-6"
-          ></i>
+          ></i> */}
         </a>
         <h5 className="panel-title">Choose Colour</h5>
         <ul id="color-options" className="list-inline mb-0">

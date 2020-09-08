@@ -37,30 +37,22 @@ const Sidebar = () => {
             <hr />
           </div>
           <ul className="navbar-nav flex-column text-left">
-            <li className="nav-item active">
-              <a className="nav-link" href="/">
-                <i className="fas fa-bookmark fa-fw mr-2"></i>Blog Home
-                <span className="sr-only">(current)</span>
-              </a>
-            </li>
-            <li className="nav-item">
-              <a className="nav-link" href="/blog-post">
-                <i className="fas fa-bookmark fa-fw mr-2"></i>Blog Post
-              </a>
-            </li>
             <li className="nav-item">
               <a className="nav-link" href="/about">
                 <i className="fas fa-user fa-fw mr-2"></i>About Me
               </a>
             </li>
+
+            <li className="nav-item">
+              <a className="nav-link" href="/">
+                <i className="fas fa-bookmark fa-fw mr-2"></i>Side Project
+                <span className="sr-only">(current)</span>
+              </a>
+            </li>
           </ul>
           <div className="my-2 my-md-3">
-            <a
-              className="btn btn-primary"
-              href="https://themes.3rdwavemedia.com/"
-              target="_blank"
-            >
-              Get in Touch
+            <a className="btn btn-primary" href="About_me" target="_blank">
+              Resume
             </a>
           </div>
         </div>
