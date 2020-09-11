@@ -1,5 +1,6 @@
 import React from "react";
 import SocialMedia from "./SocialMedia";
+import ResumePDF from "../pdfViewer/PDFViewer";
 
 const Sidebar = () => {
   return (
@@ -45,13 +46,13 @@ const Sidebar = () => {
 
             <li className="nav-item">
               <a className="nav-link" href="/">
-                <i className="fas fa-bookmark fa-fw mr-2"></i>Side Project
+                <i className="fas fa-bookmark fa-fw mr-2"></i>Mini Project
                 <span className="sr-only">(current)</span>
               </a>
             </li>
           </ul>
           <div className="my-2 my-md-3">
-            <a className="btn btn-primary" href="About_me" target="_blank">
+            <a className="btn btn-primary" href="Resume" target="_blank">
               Resume
             </a>
           </div>

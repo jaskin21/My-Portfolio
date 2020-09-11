@@ -1,7 +1,7 @@
 import React from "react";
 import { NewsLetterHome, NewsLetterAbout } from "./NewsLetter";
 import SinglePost from "./SinglePost";
-import Footer from "./Footer";
+import Footer from "./footer/Footer";
 
 export const BodyHome = () => {
   return (
@@ -37,6 +37,7 @@ export const BodyHome = () => {
 export const BodyAbout = () => {
   return (
     <div className="main-wrapper">
+      <NewsLetterAbout />
       <article className="about-section py-5">
         <div className="container">
           <h2 className="title mb-3">About Me</h2>
