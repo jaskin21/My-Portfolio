@@ -1,6 +1,6 @@
 import React from "react";
 import Sidebar from "../parts/Sidebar";
-import { BodyHome } from "../parts/Body";
+import { BodyHome } from "../parts/body/Body";
 
 const Home = () => {
   return (

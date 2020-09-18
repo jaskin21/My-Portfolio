@@ -1,6 +1,6 @@
 import React from "react";
 import Sidebar from "../parts/Sidebar";
-import { BodyBlogPost } from "../parts/Body";
+import { BodyBlogPost } from "../parts/body/Body";
 
 const BlogPost = () => {
   return (

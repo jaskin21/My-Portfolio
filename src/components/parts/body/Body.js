@@ -1,7 +1,8 @@
 import React from "react";
-import { NewsLetterHome, NewsLetterAbout } from "./NewsLetter";
-import SinglePost from "./SinglePost";
-import Footer from "./footer/Footer";
+import { NewsLetterHome, NewsLetterAbout } from "../NewsLetter";
+import SinglePost from "../SinglePost";
+import Footer from "../footer/Footer";
+import "./Body.css";
 
 export const BodyHome = () => {
   return (
@@ -37,83 +38,63 @@ export const BodyHome = () => {
 export const BodyAbout = () => {
   return (
     <div className="main-wrapper">
-      <NewsLetterAbout />
+      {/* <NewsLetterAbout /> */}
       <article className="about-section py-5">
         <div className="container">
-          <h2 className="title mb-3">About Me</h2>
-
           <p>
-            Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean
-            commodo ligula eget dolor. Aenean massa. Cum sociis natoque
-            penatibus et magnis dis parturient montes, nascetur ridiculus mus.
-            Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem.
-            Nulla consequat massa quis enim. Donec pede justo, fringilla vel,
-            aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut,
-            imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede
-            mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum
-            semper nisi. Aenean vulputate eleifend tellus.{" "}
+            <b id="highlights">Hi!</b> I'm{" "}
+            <b id="highlights">Renz Jaskin Agmata</b>, a graduate of Bachelor of
+            Science in Computer Science at the University of Southern Mindanao.
+            As an alumnus of the college, with modesty, I could attest that I
+            was thoroughly equipped physically, mentally, emotionally, socially
+            and spiritually. I had some practical experiences during my college,
+            Website development, Software troubleshooting, photo editing, and
+            video editing as part of our curriculum of our School.
           </p>
 
           <figure>
             <img
               className="img-fluid"
-              src="assets/images/about-me.jpg"
+              src="assets/images/about-graduation.jpg"
               alt="image"
             />
           </figure>
           <hr></hr>
           <h2 className="title mb-3">Contact</h2>
           <p>
-            Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean
-            commodo ligula eget dolor. Aenean massa. Cum sociis natoque
-            penatibus et magnis dis parturient montes, nascetur ridiculus mus.
-            Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem.
-            Nulla consequat massa quis enim. Donec pede justo, fringilla vel,
-            aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut,
-            imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede
-            mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum
-            semper nisi. Aenean vulputate eleifend tellus.{" "}
+            You can contact my personal phone number 09380296142. You can also
+            email me jaskin.agmata@gmail.com.
           </p>
           <hr />
-          <h5 className="mt-5">My Skills</h5>
+          <h2 className="mt-5">My Skills</h2>
           <p>
-            Vivamus elementum semper nisi. Aenean vulputate eleifend tellus.
-            Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim.
-            Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus.
-            Phasellus viverra nulla ut metus varius laoreet. Quisque rutrum.
-            Aenean imperdiet. Etiam ultricies nisi vel augue. Curabitur
-            ullamcorper ultricies nisi.
+            JavaScript, React, HTML, HTML5, CSS, CSS3, Web Programming Skills,
+            Nodejs, Teamwork, Verbal Communication, Web User Interface Design
+            (UI), Object-Oriented Programming, Multimedia Content Development,
+            Photoshop, Adobe premiere
           </p>
           <hr />
-          <h5 className="mt-5">My Experiences</h5>
+          <h2 className="mt-5">My Experiences</h2>
           <p>
-            Vivamus elementum semper nisi. Aenean vulputate eleifend tellus.
-            Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim.
-            Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus.
-            Phasellus viverra nulla ut metus varius laoreet. Quisque rutrum.
-            Aenean imperdiet. Etiam ultricies nisi vel augue. Curabitur
-            ullamcorper ultricies nisi.
+            <hr />
+            <h6>DATA ENTRY CLERK</h6>
+            November 18, 2019 to present | Philippine Rubber Testing Center –
+            USM Kabacan, Cotabato
+            <p>
+              Provide Technical Support, Data Entry, Hardware and Software
+              troubleshooting.{" "}
+            </p>
+            <hr />
+            <h6>TECHNICAL SUPPORT INTERN</h6>
+            June 18, 2018 to August 3, 2018 | Focusinc Group Corp. – Bonifacio
+            Street, Poblacion District, Davao City
+            <p>
+              Providing Level 1 Technical Support, hardware troubleshooting,
+              Software maintenance, Data Sorting and Filtering data using
+              spreadsheet.
+            </p>
+            <hr />
           </p>
-          <hr />
-          <h5 className="mt-5">Side Projects</h5>
-          <p>
-            Vivamus elementum semper nisi. Aenean vulputate eleifend tellus.
-            Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim.
-            Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus.
-            Phasellus viverra nulla ut metus varius laoreet. Quisque rutrum.
-            Aenean imperdiet. Etiam ultricies nisi vel augue. Curabitur
-            ullamcorper ultricies nisi.
-          </p>
-
-          <figure>
-            <a href="https://made4dev.com">
-              <img
-                className="img-fluid"
-                src="assets/images/promo-banner.jpg"
-                alt="image"
-              />
-            </a>
-          </figure>
         </div>
       </article>
 
@@ -198,7 +179,7 @@ export const BodyBlogPost = () => {
                 penatibus et magnis dis parturient montes, nascetur ridiculus
                 mus.
               </p>
-              <h5 className="my-3">Bullet Points:</h5>
+              <h2 className="my-3">Bullet Points:</h2>
               <ul className="mb-5">
                 <li className="mb-2">
                   Lorem ipsum dolor sit amet consectetuer.
@@ -217,7 +198,7 @@ export const BodyBlogPost = () => {
                   Aenean massa cum sociis natoque penatibus.
                 </li>
               </ol>
-              <h5 className="my-3">Quote Example:</h5>
+              <h2 className="my-3">Quote Example:</h2>
               <blockquote className="blockquote m-lg-5 py-3 pl-4 px-lg-5">
                 <p className="mb-2">
                   You might not think that programmers are artists, but
@@ -227,7 +208,7 @@ export const BodyBlogPost = () => {
                 <footer className="blockquote-footer">John Romero</footer>
               </blockquote>
 
-              <h5 className="my-3">Table Example:</h5>
+              <h2 className="my-3">Table Example:</h2>
               <table className="table table-striped my-5">
                 <thead>
                   <tr>
@@ -259,7 +240,7 @@ export const BodyBlogPost = () => {
                 </tbody>
               </table>
 
-              <h5 className="mb-3">Embed A Tweet:</h5>
+              <h2 className="mb-3">Embed A Tweet:</h2>
 
               <blockquote className="twitter-tweet" data-lang="en">
                 <p lang="en" dir="ltr">

@@ -40,7 +40,7 @@ export const NewsLetterAbout = () => {
   return (
     <section className="cta-section theme-bg-light py-5">
       <div className="container text-center">
-        <h2 className="heading">Newsletter</h2>
+        <h2 className="heading">Get Updated!</h2>
         <div className="intro">
           Welcome to my blog. Subscribe and get my latest blog post in your
           inbox.

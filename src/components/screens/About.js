@@ -1,6 +1,6 @@
 import React from "react";
 import Sidebar from "../parts/Sidebar";
-import { BodyAbout } from "../parts/Body";
+import { BodyAbout } from "../parts/body/Body";
 
 const About = () => {
   return (
