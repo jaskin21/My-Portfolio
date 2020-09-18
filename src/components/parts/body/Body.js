@@ -3,17 +3,18 @@ import { NewsLetterHome, NewsLetterAbout } from "../NewsLetter";
 import SinglePost from "../SinglePost";
 import Footer from "../footer/Footer";
 import "./Body.css";
+import NotFound from "../../screens/notFound/NotFound";
 
-export const BodyHome = () => {
+export const MiniProjects = () => {
   return (
     <div className="main-wrapper">
-      <NewsLetterHome />
-
-      <section className="blog-list px-3 py-5 p-md-5">
+      {/* <NewsLetterHome /> */}
+      <NotFound />
+      {/* <section className="blog-list px-3 py-5 p-md-5">
         <div className="container">
           <SinglePost />
           <SinglePost />
-          {/* Navigation for Home Page
+          Navigation for Home Page
           <nav className="blog-nav nav nav-justified my-5">
             <a
               className="nav-link-prev nav-item nav-link d-none rounded-left"
@@ -27,10 +28,10 @@ export const BodyHome = () => {
             >
               Next<i className="arrow-next fas fa-long-arrow-alt-right"></i>
             </a>
-          </nav> */}
+          </nav> 
         </div>
       </section>
-      <Footer />
+      <Footer /> */}
     </div>
   );
 };

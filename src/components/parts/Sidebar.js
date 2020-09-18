@@ -48,11 +48,7 @@ const Sidebar = () => {
             </li>
           </ul>
           <div className="my-2 my-md-3">
-            <a
-              className="btn btn-primary"
-              href="https://drive.google.com/drive/u/0/folders/1J-bPp6GiwzvdwH6RJbsGhEedXi3wcCC_"
-              target="_blank"
-            >
+            <a className="btn btn-primary" href="/Resume" target="_blank">
               Resume
             </a>
           </div>

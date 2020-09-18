@@ -1,5 +1,7 @@
 import React from "react";
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
+
+//Screen Pages
 import Home from "./components/screens/MiniProjects";
 import About from "./components/screens/About";
 import BlogPost from "./components/screens/BlogPost";
