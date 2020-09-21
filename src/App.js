@@ -2,10 +2,11 @@ import React from "react";
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 
 //Screen Pages
-import Home from "./components/screens/MiniProjects";
+import Projects from "./components/screens/MiniProjects";
 import About from "./components/screens/About";
 import BlogPost from "./components/screens/BlogPost";
 import NotFound from "./components/screens/notFound/NotFound";
+import Resume from "./components/screens/pdfViewer/Resume";
 
 function App() {
   return (
@@ -18,7 +19,10 @@ function App() {
           <BlogPost />
         </Route>
         <Route path="/mini-projects">
-          <Home />
+          <Projects />
+        </Route>
+        <Route path="/resume">
+          <Resume />
         </Route>
         <Route path="*">
           <NotFound />
