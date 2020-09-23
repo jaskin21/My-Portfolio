@@ -17,7 +17,7 @@ const Resume = (props) => {
       onLoadSuccess={onDocumentLoadSuccess}
     >
       {Array.from(new Array(numPages), (el, index) => (
-        <Page width={900} key={`page_${index + 1}`} pageNumber={index + 1} />
+        <Page width={1000} key={`page_${index + 1}`} pageNumber={index + 1} />
       ))}
     </Document>
   );
