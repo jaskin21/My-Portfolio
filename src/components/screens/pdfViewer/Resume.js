@@ -3,7 +3,6 @@ import { Lines } from "react-preloaders";
 
 //import components
 import Resume from "../../parts/pdfViewer/PDFViewer";
-import PreLoaders from "../../parts/PreLoader/PreLoader";
 
 //import Css for pdf format
 import "./Resume.css";
@@ -15,12 +14,12 @@ pdfjs.GlobalWorkerOptions.workerSrc = `//cdnjs.cloudflare.com/ajax/libs/pdf.js/$
 export default class PDFViewer extends React.Component {
   render() {
     return (
-      <React.Fragment>
+      <div>
         <div className="all-page-container">
           <Resume pdf={"assets/pdf/RESUME.pdf"} />
         </div>
         <Lines />
-      </React.Fragment>
+      </div>
     );
   }
 }
