@@ -42,14 +42,13 @@ class Sidebar extends Component {
             <ul className="navbar-nav flex-column text-left">
               <li className="nav-item">
                 <a className="nav-link" href="/">
-                  <i className="fas fa-user fa-fw mr-2"></i>About Me
+                <i class="fas fa-user-tie fa-fw mr-2"></i>About Me
                 </a>
               </li>
 
-              <li className="nav-link">
+              <li className="nav-item">
                 <a className="nav-link" href="/mini-projects">
-                  <i className="fas fa-bookmark fa-fw mr-2"></i>Mini Project
-                  <span className="sr-only">(current)</span>
+                  <i class="fas fa-tasks fa-fw mr-2"></i>Mini Project
                 </a>
               </li>
             </ul>
