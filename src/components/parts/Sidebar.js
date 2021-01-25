@@ -4,15 +4,13 @@ import { NavLink } from "react-router-dom";
 
 class Sidebar extends Component {
   render() {
-    // //Decission fro active navigation
-    // let isActive = this.context.router.isActive(this.props.to, true);
-    // let className = isActive ? "active" : "";
-
     return (
       <header className="header text-center">
-        <h1 className="blog-name pt-lg-4 mb-0">
+
+        {/* Blog User name */}
+        {/* <h1 className="blog-name pt-lg-4 mb-0">
           <a href="index.html">Jaskin Agmata</a>
-        </h1>
+        </h1> */}
 
         <nav className="navbar navbar-expand-lg navbar-dark">
           <button
@@ -35,14 +33,14 @@ class Sidebar extends Component {
                 alt="image"
               />
 
-              <div className="bio">Hi! Welcome to my Blog.</div>
+              <div className="bio">Hi! It's <b>Renz Jaskin Agmata</b> and Welcome to my Blog.</div>
               <SocialMedia />
               <hr />
             </div>
             <ul className="navbar-nav flex-column text-left">
               <li className="nav-item">
                 <a className="nav-link" href="/">
-                <i class="fas fa-user-tie fa-fw mr-2"></i>About Me
+                  <i class="fas fa-user-tie fa-fw mr-2"></i>About Me
                 </a>
               </li>
 
@@ -51,6 +49,13 @@ class Sidebar extends Component {
                   <i class="fas fa-tasks fa-fw mr-2"></i>Mini Project
                 </a>
               </li>
+
+              <li className="nav-item">
+                <a className="nav-link" href="/mini-projects">
+                  <i class="fas fa-graduation-cap fa-fw mr-2"></i>Academic
+                </a>
+              </li>
+
             </ul>
             <div className="my-2 my-md-3">
               <a className="btn btn-primary" href="/Resume" target="_blank">

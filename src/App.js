@@ -22,6 +22,9 @@ class App extends Component {
           <Route path="/mini-projects">
             <Projects />
           </Route>
+          {/* <Route path="/mini-projects">
+            <Projects />
+          </Route> */}
           <Route path="/resume">
             <Resume />
           </Route>

@@ -53,13 +53,13 @@ export const BodyAbout = () => {
             video editing as part of our curriculum of our School.
           </p>
 
-          <figure>
+          {/* <figure>
             <img
               className="img-fluid"
               src="assets/images/about-graduation.jpg"
               alt="image"
             />
-          </figure>
+          </figure> */}
           <hr></hr>
           <h2 className="title mb-3">Contact</h2>
           <p>
@@ -70,29 +70,32 @@ export const BodyAbout = () => {
           <h2 className="mt-5">My Skills</h2>
           <p>
             JavaScript, React, HTML, HTML5, CSS, CSS3, Web Programming Skills,
-            Nodejs, Teamwork, Verbal Communication, Web User Interface Design
-            (UI), Object-Oriented Programming, Multimedia Content Development,
+            Teamwork, Verbal Communication, Web User Interface Design
+            (UI), Object-Oriented Programming,,
             Photoshop, Adobe premiere
           </p>
           <hr />
           <h2 className="mt-5">My Experiences</h2>
           <p>
             <hr />
-            <h6>DATA ENTRY CLERK</h6>
+            <h6>ADMIN SUPPORT STAFF</h6>
             November 18, 2019 to present | Philippine Rubber Testing Center –
             USM Kabacan, Cotabato
+            <br /><br />
             <p>
-              Provide Technical Support, Data Entry, Hardware and Software
-              troubleshooting.{" "}
+              I perform various tasks like data entry,
+              hardware and software troubleshooting, file management and
+              data visualization
             </p>
             <hr />
             <h6>TECHNICAL SUPPORT INTERN</h6>
             June 18, 2018 to August 3, 2018 | Focusinc Group Corp. – Bonifacio
             Street, Poblacion District, Davao City
+            <br /><br />
             <p>
               Providing Level 1 Technical Support, hardware troubleshooting,
-              Software maintenance, Data Sorting and Filtering data using
-              spreadsheet.
+              Software maintenance, Data Entry, Data Management, Data Sorting and
+              Filtering using spreadsheet (Vlookup, Query Function)
             </p>
             <hr />
           </p>
