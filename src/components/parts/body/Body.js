@@ -69,23 +69,33 @@ export const BodyAbout = () => {
           <hr />
           <h2 className="mt-5">My Skills</h2>
           <p>
-            JavaScript, React, HTML, HTML5, CSS, CSS3, Web Programming Skills,
+            JavaScript, React, HTML5, CSS,
             Teamwork, Verbal Communication, Web User Interface Design
-            (UI), Object-Oriented Programming,,
-            Photoshop, Adobe premiere
+            (UI), Object-Oriented Programming,
+            Photoshop, Vegas Pro (Video Editing), MS Word, MS Excel, Google spreadsheet
           </p>
           <hr />
           <h2 className="mt-5">My Experiences</h2>
           <p>
             <hr />
-            <h6>ADMIN SUPPORT STAFF</h6>
-            November 18, 2019 to present | Philippine Rubber Testing Center –
-            USM Kabacan, Cotabato
+            <h6>LABORATORY AIDE  </h6>
+            Philippine Rubber Testing Center  | January 2021 - Present
+
             <br /><br />
             <p>
-              I perform various tasks like data entry,
-              hardware and software troubleshooting, file management and
-              data visualization
+              Provides Technical Support, hardware and software troubleshooting, data entry,
+              data visualization and data management. I also Writes monthly report.
+            </p>
+
+            <hr />
+            <h6>ADMIN SUPPORT STAFF</h6>
+            Philippine Rubber Testing Center  | November 2019 – December 2020
+            <br /><br />
+            <p>
+              Schedule and coordinate meetings, appointments, and travel arrangements for the manager.
+              Ensures document control for the software data, and Update and reports budget,
+              income and utilization of the center. Technical Support, Hardware and Software Troubleshooting.
+
             </p>
             <hr />
             <h6>TECHNICAL SUPPORT INTERN</h6>

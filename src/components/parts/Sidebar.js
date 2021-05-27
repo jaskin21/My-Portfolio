@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import SocialMedia from "./SocialMedia";
+import SocialMedia from "./socialmedia/SocialMedia";
 import { NavLink } from "react-router-dom";
 
 class Sidebar extends Component {

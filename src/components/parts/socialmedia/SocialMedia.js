@@ -24,7 +24,7 @@ const SocialMedia = () => {
       <li className="list-inline-item">
         <a
           rel="noopener noreferrer"
-          href="https://www.instagram.com/jaskin_renz/?hl=en"
+          href="https://www.instagram.com/juskin.account/"
           target="_blank"
         >
           <i className="fab fa-instagram fa-fw"></i>
@@ -33,7 +33,7 @@ const SocialMedia = () => {
       <li className="list-inline-item">
         <a
           rel="noopener noreferrer"
-          href="https://www.linkedin.com/in/jaskin-renz-03284a18a/"
+          href="https://www.linkedin.com/in/renz-jaskin-agmata-03284a18a/"
           target="_blank"
         >
           <i className="fab fa-linkedin fa-fw"></i>
